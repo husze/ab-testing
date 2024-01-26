@@ -1,0 +1,36 @@
+{
+  "name": "ab-testing",
+  "version": "3.1.8",
+  "description": "A/B testing made easy.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/mocha/bin/mocha ./tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xavimb/ab-testing.git"
+  },
+  "keywords": [
+    "ab-testing",
+    "testing",
+    "a/b",
+    "ab",
+    "split-testing",
+    "split"
+  ],
+  "author": "Xavi Magrinyà",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xavimb/ab-testing/issues"
+  },
+  "homepage": "https://github.com/xavimb/ab-testing",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "blueimp-md5": "^1.1.0",
+    "lodash.isfinite": "^3.3.2"
+  }
+}
